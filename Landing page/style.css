@@ -243,11 +243,15 @@ header {
 .foot-panel {
   margin-top: 5rem;
   background-color: #172337;
-  height: 250px;
+  height: auto;
   color: white;
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   padding: 2rem;
+}
+.foot-panel div {
+  margin-top: 2rem;
 }
 .foot-panel div ul:hover {
   cursor: pointer;
@@ -277,4 +281,62 @@ ul a {
 }
 .credit a:hover {
   color: aquamarine;
+}
+@media screen and (max-width: 850px) {
+  .nav {
+    background-color: gray;
+    display: flex;
+    padding: 0 0;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .panel,
+  .panel-items {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .button1 {
+    bottom: 0.5rem;
+    right: 0.5rem;
+    height: 20px;
+    width: 60px;
+    padding: 0 0;
+    font-size: 7px;
+  }
+  .backgroundhero {
+    height: 250px;
+    margin: 1 rem;
+  }
+  .shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .box {
+    height: 200px;
+    padding: 8px 0 5px;
+    margin-top: 1rem;
+    width: 112px;
+  }
+  .boximg1,
+  .boximg2,
+  .boximg3,
+  .boximg4,
+  .boximg5,
+  .boximg6,
+  .boximg7,
+  .boximg8 {
+    margin: 5px, 0;
+    height: 110px;
+  }
+  .boxcontent h2 {
+    font-size: 12px;
+    letter-spacing: 0.5px;
+  }
+  .boxcontent {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
 }
