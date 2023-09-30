@@ -16,7 +16,7 @@
   overflow-y: auto;
 }
 .container1 {
-  max-width: 76vw;
+  max-width: 80vw;
   margin: 0 auto;
 }
 .navbar {
@@ -192,7 +192,7 @@
   background-image: url("images/Screenshot\ \(55\).png");
 }
 .project-content {
-  width: 100%;
+  width: 50%;
   color: white;
   font-size: 12px;
   position: absolute;
